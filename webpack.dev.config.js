@@ -34,7 +34,7 @@ module.exports = {
         use: ['ts-loader'],
       },
       {
-        test: /\.(png|jpeg|jpg)$/,
+        test: /\.(png|jpeg|jpg|svg)$/,
         type: 'asset',
         parser: {
           dataUrlCondition: {
