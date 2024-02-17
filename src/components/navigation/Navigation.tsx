@@ -11,7 +11,7 @@ const menu = [
   {title: "Contacts", linkSec : '#contacts'}
 ];
 
-const NavigationBar = () => {
+const Navigation = () => {
   return (
     <nav className='nav-wrapper'>
     <ul className='nav-bar'>
@@ -31,4 +31,4 @@ const NavigationBar = () => {
   )
 };
 
-export default NavigationBar;
+export default Navigation;

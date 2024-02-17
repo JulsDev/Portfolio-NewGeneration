@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from '../NavigationBar';
+import Navigation from '../navigation/Navigation';
 
 import './Header.scss';
 
@@ -9,7 +9,7 @@ const Header = () => {
       <div className='logo'>
         <a href='#' className='logo-pic'>JA </a>
       </div>
-      <NavigationBar />
+      <Navigation />
       <p>language block</p>
     </header>
   )
