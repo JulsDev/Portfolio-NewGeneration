@@ -1,0 +1,62 @@
+@import '../../styles/colors.scss';
+
+.socials{
+  display: flex;
+  align-items: center;
+
+  &--rounded{
+    .socials__link{
+      border: 1px solid $gray;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      position: relative;
+    }
+    .socials__icon{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      fill: $white;
+      opacity: 0.3;
+      color: $white;
+    }
+  }
+}
+
+.socials__list{
+  display: flex;
+  align-items: center;
+}
+
+.socials__item{
+  margin-right: 40px;
+
+  &:last-child{
+    margin-right: 0px;
+  }
+}
+
+.socials__item--rounded{
+  &:hover{
+    .socials__link{
+      border: 1px solid $socialColorHover; 
+    }
+    .socials__icon{
+      fill: $socialColorHover;
+    }
+  }
+}
+
+.socials__link{
+  display: block;
+  width: 25px;
+  height: 31px;
+  fill: $footerTextColor;
+}
+
+.socials__icon:hover{
+  fill: $socialColorHover;
+}

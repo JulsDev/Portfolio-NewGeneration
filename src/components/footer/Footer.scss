@@ -1,0 +1,70 @@
+@import '../../styles/colors.scss';
+
+.footer {
+  max-height: 407px;
+  color: $white;
+  background: $footerBackground;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 6% 5%;
+}
+
+.footer__copyright {
+  width: 28%;
+}
+
+.footer__data {
+  width: 70%;  
+}
+
+.copyright__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.copyright__year{
+  opacity: 0.2;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.copyright__username{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.copyright__desc{
+  opacity: 0.3;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.footer__menu {
+  margin-bottom: 32px;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.column {
+  margin-right: 4%;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.footer__text {
+  margin-bottom: 27px;
+  margin-right: 55px;
+  font-size: 16px;
+  opacity: 0.6;
+}
