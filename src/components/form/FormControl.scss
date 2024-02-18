@@ -1,5 +1,69 @@
 @import '../../styles/colors.scss';
 
+.form-wrapper {
+  margin: 10% 0 10%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__row {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-bottom: 48px;
+}
+
+.form__column,
+.form__label{
+  width: 100%;
+}
+
+.form__block{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #414c63;
+  width: 100%;
+  margin-right: 50px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.form__label{
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #414c63;
+}
+.form__input {
+  margin-top: 18px;
+}
+
+.form__block-input{
+  width: 100%;
+  outline: none;
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  padding: 8% 0;
+}
+
+.form__textarea {
+  max-width: 500px;
+  resize: none;
+  outline: none;
+  background: none;
+  border: none;
+  overflow: hidden;
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+// ============================
 .form-submit__button {
   padding: 34px 120px;
   max-width: 347px;
@@ -15,4 +79,12 @@
   &:hover {
     background-image: linear-gradient(to right, $formButton1 0%, $formButton2 100%);
   }
+}
+
+//==============================
+.form-input__error {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border-color: $errors-color;
+  color: $errors-color;
 }

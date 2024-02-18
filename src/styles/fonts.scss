@@ -1,33 +1,79 @@
 @font-face {
-  font-family: 'bungee hairline';
-  src: local('bungee hairline'),
-      url('../../assets/fonts/bungee_hairline_regular.woff') format('ttf'),
-      url('../../assets/fonts/bungee_hairline_regular.woff2') format('woff2'),
-      url('../../assets/fonts/bungee_hairline_regular.woff') format('woff');
-  font-weight: normal;
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'SFProDisplay';
-  src: url('../../assets/fonts/SFProDisplay-Thin.woff2') format('woff2'),
-       url('../../assets/fonts/SFProDisplay-Thin.woff') format('woff');
-  font-weight: normal;
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AvenirNext';
-  src: url('../../assets/fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
-       url('../../assets/fonts/AvenirNextCyr-Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-extrabolditalic-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-light-webfont.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AvenirNext_UltraLight';
-  src: url('../../assets/fonts/AvenirNextCyr-UltraLight.woff2') format('woff2'),
-       url('../../assets/fonts/AvenirNextCyr-UltraLight.woff') format('woff');
-  font-weight: 200;
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-lightitalic-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-italic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('../fonts/opensans-semibolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-semibolditalic-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
 }

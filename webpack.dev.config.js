@@ -57,7 +57,11 @@ module.exports = {
       {
         test: /\.hbs$/,
         use: ['handlebars-loader']
-      }
+      },
+      {
+        test: /\.(ttf|woff|woff2|eot)$/,
+        use: 'file-loader'
+      },
     ]
   },
 

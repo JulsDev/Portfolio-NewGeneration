@@ -8,7 +8,7 @@ const menu = [
   {title: "About me", linkSec : "#about"},
   {title: "Skills", linkSec : '#skills'},
   {title: "Works", linkSec : '#works'},
-  {title: "Contacts", linkSec : '#contacts'}
+  {title: "Contacts", linkSec : '#contactme'}
 ];
 
 const Navigation = () => {
