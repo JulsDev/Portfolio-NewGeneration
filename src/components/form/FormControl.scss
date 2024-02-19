@@ -75,6 +75,7 @@
   font-weight: 700;
   text-transform: uppercase;
   outline: none;
+  margin-top: 24px;
 
   &:hover {
     background-image: linear-gradient(to right, $formButton1 0%, $formButton2 100%);
