@@ -1,4 +1,3 @@
-import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
 import './styles.scss';
@@ -6,9 +5,9 @@ import './styles.scss';
 const menu = [
   {title: "Home", linkSec : "#hero"},
   {title: "About me", linkSec : "#about"},
-  {title: "Skills", linkSec : '#skills'},
   {title: "Works", linkSec : '#works'},
-  {title: "Contacts", linkSec : '#contactme'}
+  {title: "Contacts", linkSec : '#contactme'},
+  {title: "Blog", linkSec : '#blog'},
 ];
 
 const Navigation = () => {
