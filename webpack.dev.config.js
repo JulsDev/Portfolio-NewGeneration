@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpeg|jpg|svg)$/,
-        type: 'asset',
+        type: "asset/resource",
         parser: {
           dataUrlCondition: {
             maxSize: 3 * 1024  // 3 kilobytes
@@ -60,7 +60,7 @@ module.exports = {
       },
       {
         test: /\.(ttf|woff|woff2|eot)$/,
-        use: 'file-loader'
+        type: "asset/resource",
       },
     ]
   },
