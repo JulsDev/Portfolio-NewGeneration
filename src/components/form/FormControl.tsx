@@ -24,7 +24,6 @@ export default function FormControl() {
 
   return (
     <section className="section-contacts" id="contact">
-      <h2 className="title title__contacts">Contacts with me</h2>
       <div className="form-wrapper">
         <form
           noValidate

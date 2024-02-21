@@ -1,10 +1,12 @@
+@import '../../styles/colors.scss';
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 25px 40px;
-  background: white;
+  padding: 35px 40px;
+  background: $white;
   box-shadow: 5px 10px 5px lightgrey;
   position: absolute;
   top: 0;
@@ -18,7 +20,15 @@
     left: 0;
     height: 100px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
+    background-color: $white;
     z-index: 150;
   }
+}
+
+.logo{
+  font-family: 'Open Sans',Helvetica,sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 30px;
+  color: $mainTextColor;
 }
