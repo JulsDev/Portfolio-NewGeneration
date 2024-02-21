@@ -5,8 +5,8 @@ const GitHubIcon = () => {
         version="1.1"
         id="Capa_1"
         xmlns="http://www.w3.org/2000/svg"
-        width={20}
-        height={20}
+        width={22}
+        height={22}
         viewBox="0 0 475.084 475.084"
       >
         <g>
