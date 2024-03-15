@@ -1,0 +1,62 @@
+.container-about {
+  height: 100vh;
+  background: url('../../images/parallax/layer-6.png') center center/cover no-repeat;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+}
+
+.about-table {
+  text-align: left;
+
+  .row {
+    margin-right: 3px;
+  }
+}
+
+.photo__block {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.photo__img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-descr__hello{
+  margin-bottom: 14px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.person-descr__name{
+  display: flex;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.person-descr__about {
+  margin-bottom: 10px;
+}
+
+.person-descr__youself{
+  display: block;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  font-weight: 600;
+}
